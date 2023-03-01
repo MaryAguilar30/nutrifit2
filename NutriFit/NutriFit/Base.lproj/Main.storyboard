@@ -22,20 +22,23 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="UMp-9e-O2G">
-                                <rect key="frame" x="13" y="188" width="194" height="158"/>
+                                <rect key="frame" x="13" y="205" width="194" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YiJ-ds-VrF">
-                                <rect key="frame" x="215" y="188" width="187" height="132"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food2" translatesAutoresizingMaskIntoConstraints="NO" id="Ci9-hr-M92">
+                                <rect key="frame" x="226" y="407" width="176" height="258"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit eu ante ut eleifend. Cras ex lacus, ullamcorper at erat a, ullamcorper euismod elit.</string>
-                                <color key="textColor" systemColor="labelColor"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="04D-S5-S8g">
+                                <rect key="frame" x="13" y="117" width="359" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="azul"/>
+                                <color key="textColor" name="azul"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soo-uL-axX">
-                                <rect key="frame" x="245" y="780" width="127" height="48"/>
+                                <rect key="frame" x="251" y="763" width="127" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <state key="normal" title="Button"/>
@@ -46,27 +49,31 @@
                                     <segue destination="avM-RR-2rS" kind="show" id="A4d-Ar-VSJ"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food2" translatesAutoresizingMaskIntoConstraints="NO" id="Ci9-hr-M92">
-                                <rect key="frame" x="226" y="407" width="176" height="258"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tips " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRG-OS-DFu">
+                                <rect key="frame" x="142" y="159" width="130" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PWJ-o8-XpC">
-                                <rect key="frame" x="13" y="465" width="196" height="128"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Pwv-dA-Mz5">
+                                <rect key="frame" x="12" y="433" width="206" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit eu ante ut eleifend. Cras ex lacus, ullamcorper at erat a, ullamcorper euismod elit.</string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+                                <color key="textColor" name="azul"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="04D-S5-S8g">
-                                <rect key="frame" x="57" y="124" width="255" height="34"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Sj7-mO-4Yb">
+                                <rect key="frame" x="215" y="200" width="187" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="azul"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
                                 <color key="textColor" name="azul"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="rosa"/>
@@ -84,6 +91,63 @@
                     <view key="view" contentMode="scaleToFill" id="NEb-1i-BXp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cre-NS-glN">
+                                <rect key="frame" x="47" y="141" width="288" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="verde"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Desayuno"/>
+                                <connections>
+                                    <segue destination="2L4-9I-XjA" kind="show" id="Dsc-WO-WQ6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3M-Xd-J6z">
+                                <rect key="frame" x="47" y="249" width="288" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Media Mañana"/>
+                                <connections>
+                                    <segue destination="Uop-PD-FJn" kind="show" id="1r5-Ti-stv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XcQ-GD-zp6">
+                                <rect key="frame" x="47" y="359" width="288" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="amarillo"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Comida"/>
+                                <connections>
+                                    <segue destination="MTs-y5-ulC" kind="show" id="ZTh-dP-zQj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aag-FV-8Tq">
+                                <rect key="frame" x="47" y="471" width="288" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="new"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Media tarde"/>
+                                <connections>
+                                    <segue destination="88h-5p-yvi" kind="show" id="Fuc-NH-8vh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="80h-jQ-ZjE">
+                                <rect key="frame" x="47" y="591" width="288" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="azul"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Cena"/>
+                                <connections>
+                                    <segue destination="wk5-10-kjG" kind="show" id="ise-o3-OcQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="aDX-de-UhI"/>
                         <color key="backgroundColor" name="rosa"/>
                     </view>
@@ -91,7 +155,96 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S31-ET-lEm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1754" y="121"/>
+            <point key="canvasLocation" x="1753.6231884057972" y="120.53571428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="svb-ty-gB6">
+            <objects>
+                <viewController id="2L4-9I-XjA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v72-mW-bGH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DUy-Hk-hR6"/>
+                        <color key="backgroundColor" name="rosa"/>
+                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0b8-6u-gcg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bby-89-8eq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2448" y="121"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ArW-yP-Dy9">
+            <objects>
+                <viewController id="Uop-PD-FJn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ybd-Lu-alh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7hc-ln-SGS"/>
+                        <color key="backgroundColor" name="rosa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="a28-IJ-YWq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jlo-lJ-UCU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3138" y="121"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="p7c-yR-Qb5">
+            <objects>
+                <viewController id="MTs-y5-ulC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Xd-aX-Sa0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="cTQ-Fs-qdg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <viewLayoutGuide key="safeArea" id="qpY-gy-VqN"/>
+                                <color key="backgroundColor" name="rosa"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MHP-fy-NTl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3BR-Q3-Onn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9XU-25-rjK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3907" y="121"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mt7-lo-o86">
+            <objects>
+                <viewController id="88h-5p-yvi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="akb-gb-uVY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="wOX-c0-Cfs"/>
+                        <color key="backgroundColor" name="rosa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5mD-MN-Csz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8vC-rz-1BO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4620" y="121"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ycs-oZ-GcY">
+            <objects>
+                <viewController id="wk5-10-kjG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cMX-AL-BDa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Ydu-Y1-7Px"/>
+                        <color key="backgroundColor" name="rosa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DWw-yj-YsZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OEM-Lo-c1O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5383" y="121"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="j44-JS-7nY">
@@ -117,11 +270,20 @@
         <image name="Imagen_1-removebg-preview" width="667" height="374"/>
         <image name="food" width="800" height="576"/>
         <image name="food2" width="800" height="1200"/>
+        <namedColor name="amarillo">
+            <color red="0.96078431372549022" green="0.9137254901960784" blue="0.81176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="azul">
             <color red="0.57647058823529407" green="0.77647058823529413" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="new">
+            <color red="0.70588235294117652" green="0.89411764705882357" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="rosa">
-            <color red="0.99607843137254903" green="0.87058823529411766" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.99599999189376831" green="0.87099999189376831" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="verde">
+            <color red="0.37647058823529411" green="0.61960784313725492" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

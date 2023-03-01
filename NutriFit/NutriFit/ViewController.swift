@@ -8,23 +8,26 @@
 import UIKit
 import SwiftUI
 
-struct MainView: View{
+struct ContentView: View{
     
 
 var body: some View {
-    ScrollView {
-        VStack{
-            Image("food")
-                .frame(height: 200)
-            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit eu ante ut eleifend. Cras ex lacus, ullamcorper at erat a, ullamcorper euismod elit.")
-                
+    
+    Text ("Hello world")
+
         
         }
+
     }
 
+struct ContentView_Previews: PreviewProvider{
+    static var previews: some View{
+        ContentView()
+    }
+}
+
     
-}
-}
+
 
 
     
