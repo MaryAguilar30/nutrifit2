@@ -26,7 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food2" translatesAutoresizingMaskIntoConstraints="NO" id="Ci9-hr-M92">
-                                <rect key="frame" x="226" y="407" width="176" height="258"/>
+                                <rect key="frame" x="226" y="407" width="152" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="04D-S5-S8g">
@@ -42,7 +42,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Siguiente">
+                                <buttonConfiguration key="configuration" style="plain" title="Recetas">
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -59,17 +59,15 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Pwv-dA-Mz5">
                                 <rect key="frame" x="12" y="433" width="206" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
                                 <color key="textColor" name="azul"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Sj7-mO-4Yb">
-                                <rect key="frame" x="215" y="200" width="187" height="199"/>
+                                <rect key="frame" x="215" y="200" width="163" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
                                 <color key="textColor" name="azul"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -79,6 +77,9 @@
                         <color key="backgroundColor" name="rosa"/>
                     </view>
                     <navigationItem key="navigationItem" id="eix-gQ-dFS"/>
+                    <connections>
+                        <outlet property="Tips" destination="GRG-OS-DFu" id="msb-mv-W1G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -93,7 +94,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cre-NS-glN">
-                                <rect key="frame" x="47" y="141" width="288" height="73"/>
+                                <rect key="frame" x="47" y="136" width="288" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="verde"/>
                                 <color key="tintColor" systemColor="labelColor"/>
@@ -164,6 +165,66 @@
                     <view key="view" contentMode="scaleToFill" id="v72-mW-bGH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recetas " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ues-7Z-zgV">
+                                <rect key="frame" x="174" y="88" width="86" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" systemColor="labelColor"/>
+                                <color key="shadowColor" systemColor="labelColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="dtE-Zc-wKO">
+                                <rect key="frame" x="20" y="263" width="338" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">200 gramos de fresas
+1 kiwi
+2 peras
+4 huevos
+50 gramos de azúcar moreno
+1 cucharadita de levadura en polvo</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iv8-ZU-Ru4">
+                                <rect key="frame" x="20" y="402" width="343" height="443"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Elaboración:
+Paso 1. Lava las fresas, sécalas, retírales el tallo y pártelas por la mitad.
+Paso 2. Pela el kiwi y córtalo, primero en rodajas y, luego, estas por la mitad.
+Paso 3. Pela las peras, descorazónalas y córtalas en trozo.
+Paso 4. Precalienta el horno a 180 °C.
+Paso 5. Casca los huevos y añade el azúcar moreno y la levadura. Bate hasta obtener una masa.
+Paso 6. Vuélcala en una fuente apta para el horno forrada con papel sulfurizado.
+Paso 7. Reparte por encima los trozos de pera y de fresa y hornea 12 minutos. Retira del horno y, una vez fría, añade el kiwi. 
+Paso 8. Por último, espolvorea con azúcar glas, ¡y sirve!
+El truco: Si prefieres hacer tortillas individuales puedes utilizar moldes de flan o de magdalenas.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tortilla de kiwi , fresa y pera" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1cI-mI-fDA">
+                                <rect key="frame" x="51" y="125" width="312" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" name="azul"/>
+                                <color key="textColor" name="azul"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ingredientes( para  4 personas)" translatesAutoresizingMaskIntoConstraints="NO" id="D7a-a5-0B4">
+                                <rect key="frame" x="20" y="199" width="286" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" name="azul"/>
+                                <color key="textColor" name="azul"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Receta1" translatesAutoresizingMaskIntoConstraints="NO" id="SNA-f7-jH4">
+                                <rect key="frame" x="235" y="241" width="128" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="DUy-Hk-hR6"/>
                         <color key="backgroundColor" name="rosa"/>
                         <color key="tintColor" systemColor="systemBackgroundColor"/>
@@ -172,7 +233,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bby-89-8eq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2448" y="121"/>
+            <point key="canvasLocation" x="2447.826086956522" y="120.53571428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ArW-yP-Dy9">
@@ -268,6 +329,7 @@
     <color key="tintColor" name="azul"/>
     <resources>
         <image name="Imagen_1-removebg-preview" width="667" height="374"/>
+        <image name="Receta1" width="640" height="425"/>
         <image name="food" width="800" height="576"/>
         <image name="food2" width="800" height="1200"/>
         <namedColor name="amarillo">

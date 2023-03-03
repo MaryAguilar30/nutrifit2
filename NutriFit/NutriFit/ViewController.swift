@@ -6,34 +6,17 @@
 //
 
 import UIKit
-import SwiftUI
 
-struct ContentView: View{
-    
+class ViewController: UIViewController {
 
-var body: some View {
-    
-    Text ("Hello world")
-
-        
-        }
-
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
     }
 
-struct ContentView_Previews: PreviewProvider{
-    static var previews: some View{
-        ContentView()
-    }
+    @IBOutlet var Tips: UILabel!
+
+    
+    
 }
-
-    
-
-
-
-    
-    
-    
-
-
-
 
