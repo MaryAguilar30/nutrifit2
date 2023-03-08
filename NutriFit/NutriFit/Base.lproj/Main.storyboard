@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Imagen_1-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="nsl-vX-Yaf">
-                                <rect key="frame" x="86" y="28" width="243" height="88"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="nsl-vX-Yaf">
+                                <rect key="frame" x="80" y="35" width="282" height="157"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="UMp-9e-O2G">
@@ -29,33 +29,6 @@
                                 <rect key="frame" x="226" y="407" width="152" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="04D-S5-S8g">
-                                <rect key="frame" x="13" y="117" width="359" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="azul"/>
-                                <color key="textColor" name="azul"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soo-uL-axX">
-                                <rect key="frame" x="251" y="763" width="127" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Recetas">
-                                    <color key="baseForegroundColor" systemColor="labelColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="avM-RR-2rS" kind="show" id="A4d-Ar-VSJ"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tips " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRG-OS-DFu">
-                                <rect key="frame" x="142" y="159" width="130" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Pwv-dA-Mz5">
                                 <rect key="frame" x="12" y="433" width="206" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -72,14 +45,27 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68B-QF-UF5">
+                                <rect key="frame" x="60" y="698" width="282" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Menù" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" strokeWidth="0.0">
+                                        <color key="strokeColor" systemColor="labelColor"/>
+                                    </backgroundConfiguration>
+                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                    <color key="baseForegroundColor" name="Color"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="avM-RR-2rS" kind="show" id="XaT-fT-kAu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="rosa"/>
                     </view>
                     <navigationItem key="navigationItem" id="eix-gQ-dFS"/>
-                    <connections>
-                        <outlet property="Tips" destination="GRG-OS-DFu" id="msb-mv-W1G"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -93,57 +79,63 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cre-NS-glN">
-                                <rect key="frame" x="47" y="136" width="288" height="77"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cre-NS-glN">
+                                <rect key="frame" x="41" y="107" width="325" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="verde"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Desayuno"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Desayuno" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" image="Desayuno-1"/>
+                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="2L4-9I-XjA" kind="show" id="Dsc-WO-WQ6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3M-Xd-J6z">
-                                <rect key="frame" x="47" y="249" width="288" height="73"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3M-Xd-J6z">
+                                <rect key="frame" x="41" y="237" width="325" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Media Mañana"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Media Mañana" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" image="Almuerzo"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="Uop-PD-FJn" kind="show" id="1r5-Ti-stv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XcQ-GD-zp6">
-                                <rect key="frame" x="47" y="359" width="288" height="73"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XcQ-GD-zp6">
+                                <rect key="frame" x="41" y="373" width="325" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="amarillo"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Comida"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Comida" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" image="comida"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="MTs-y5-ulC" kind="show" id="ZTh-dP-zQj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aag-FV-8Tq">
-                                <rect key="frame" x="47" y="471" width="288" height="73"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aag-FV-8Tq">
+                                <rect key="frame" x="49" y="524" width="317" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="new"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Media tarde"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Media tarde" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" image="Merienda"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="88h-5p-yvi" kind="show" id="Fuc-NH-8vh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="80h-jQ-ZjE">
-                                <rect key="frame" x="47" y="591" width="288" height="73"/>
+                                <rect key="frame" x="49" y="688" width="328" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="azul"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Cena"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Cena" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" image="Cena-1"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="wk5-10-kjG" kind="show" id="ise-o3-OcQ"/>
                                 </connections>
@@ -166,64 +158,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recetas " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ues-7Z-zgV">
-                                <rect key="frame" x="174" y="88" width="86" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recetas  de Desayuno" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ues-7Z-zgV">
+                                <rect key="frame" x="97" y="88" width="221" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <color key="highlightedColor" systemColor="labelColor"/>
                                 <color key="shadowColor" systemColor="labelColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="dtE-Zc-wKO">
-                                <rect key="frame" x="20" y="263" width="338" height="131"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GId-St-VFg">
+                                <rect key="frame" x="79" y="154" width="256" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">200 gramos de fresas
-1 kiwi
-2 peras
-4 huevos
-50 gramos de azúcar moreno
-1 cucharadita de levadura en polvo</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iv8-ZU-Ru4">
-                                <rect key="frame" x="20" y="402" width="343" height="443"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Opcion 1" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" image="Opcion1"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="llK-G6-Z9C" kind="show" id="RYk-uU-BLn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNN-ob-MYg">
+                                <rect key="frame" x="79" y="355" width="256" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Elaboración:
-Paso 1. Lava las fresas, sécalas, retírales el tallo y pártelas por la mitad.
-Paso 2. Pela el kiwi y córtalo, primero en rodajas y, luego, estas por la mitad.
-Paso 3. Pela las peras, descorazónalas y córtalas en trozo.
-Paso 4. Precalienta el horno a 180 °C.
-Paso 5. Casca los huevos y añade el azúcar moreno y la levadura. Bate hasta obtener una masa.
-Paso 6. Vuélcala en una fuente apta para el horno forrada con papel sulfurizado.
-Paso 7. Reparte por encima los trozos de pera y de fresa y hornea 12 minutos. Retira del horno y, una vez fría, añade el kiwi. 
-Paso 8. Por último, espolvorea con azúcar glas, ¡y sirve!
-El truco: Si prefieres hacer tortillas individuales puedes utilizar moldes de flan o de magdalenas.</mutableString>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tortilla de kiwi , fresa y pera" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1cI-mI-fDA">
-                                <rect key="frame" x="51" y="125" width="312" height="66"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Opcion 2" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" image="Opcion2"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="CQ9-8w-180" kind="show" id="6Gg-BW-reW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mg-KT-BC4">
+                                <rect key="frame" x="79" y="548" width="256" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" name="azul"/>
-                                <color key="textColor" name="azul"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ingredientes( para  4 personas)" translatesAutoresizingMaskIntoConstraints="NO" id="D7a-a5-0B4">
-                                <rect key="frame" x="20" y="199" width="286" height="81"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" name="azul"/>
-                                <color key="textColor" name="azul"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Receta1" translatesAutoresizingMaskIntoConstraints="NO" id="SNA-f7-jH4">
-                                <rect key="frame" x="235" y="241" width="128" height="101"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Opcion 2" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background" image="Opcion3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="gbG-ZQ-kSk" kind="show" id="efA-pY-qis"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DUy-Hk-hR6"/>
                         <color key="backgroundColor" name="rosa"/>
@@ -234,6 +212,101 @@ El truco: Si prefieres hacer tortillas individuales puedes utilizar moldes de fl
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bby-89-8eq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2447.826086956522" y="120.53571428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JBn-dx-64l">
+            <objects>
+                <viewController id="llK-G6-Z9C" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QhO-bg-kuO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="f3A-mM-woc">
+                                <rect key="frame" x="20" y="360" width="343" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <mutableString key="text">Elaboración:
+Paso 1. Lava las fresas, sécalas, retírales el tallo y pártelas por la mitad.
+Paso 2. Pela el kiwi y córtalo, primero en rodajas y, luego, estas por la mitad.
+Paso 3. Pela las peras, descorazónalas y córtalas en trozo.
+Paso 4. Precalienta el horno a 180 °C.
+Paso 5. Casca los huevos y añade el azúcar moreno y la levadura. Bate hasta obtener una masa.
+Paso 6. Vuélcala en una fuente apta para el horno forrada con papel sulfurizado.
+Paso 7. Reparte por encima los trozos de pera y de fresa y hornea 12 minutos. Retira del horno y, una vez fría, añade el kiwi. 
+Paso 8. Por último, espolvorea con azúcar glas, ¡y sirve!
+El truco: Si prefieres hacer tortillas individuales puedes utilizar moldes de flan o de magdalenas.
+</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="d30-n9-TAd">
+                                <rect key="frame" x="20" y="195" width="297" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <string key="text">Ingredientes( para  4 personas)
+200 gramos de fresas
+1 kiwi
+2 peras
+4 huevos
+50 gramos de azúcar moreno
+1 cucharadita de levadura en polvo
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8OM-22-RDF">
+                                <rect key="frame" x="47" y="135.99999999999989" width="288" height="109.33333333333333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" name="azul"/>
+                                <string key="text">Tortilla de kiwi , fresa y pera
+</string>
+                                <color key="textColor" name="verde"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VAG-LC-hcR"/>
+                        <color key="backgroundColor" name="rosa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="H5d-cu-JNw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SbD-pc-AFG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3173.913043478261" y="120.53571428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Nir-DK-7lm">
+            <objects>
+                <viewController id="CQ9-8w-180" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dxL-7j-9B1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="EzK-vV-x4A"/>
+                        <color key="backgroundColor" name="rosa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0xL-ju-17p"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TPU-Xd-cTK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3883" y="121"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gYz-lh-Bmf">
+            <objects>
+                <viewController id="gbG-ZQ-kSk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dO7-5v-TC5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JLk-Uv-wfY"/>
+                        <color key="backgroundColor" name="rosa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fta-Kq-oaR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MPY-jA-ema" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4629" y="121"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ArW-yP-Dy9">
@@ -249,7 +322,7 @@ El truco: Si prefieres hacer tortillas individuales puedes utilizar moldes de fl
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jlo-lJ-UCU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3138" y="121"/>
+            <point key="canvasLocation" x="4154" y="-538"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="p7c-yR-Qb5">
@@ -273,7 +346,7 @@ El truco: Si prefieres hacer tortillas individuales puedes utilizar moldes de fl
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9XU-25-rjK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3907" y="121"/>
+            <point key="canvasLocation" x="4629" y="889"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mt7-lo-o86">
@@ -289,7 +362,7 @@ El truco: Si prefieres hacer tortillas individuales puedes utilizar moldes de fl
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8vC-rz-1BO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4620" y="121"/>
+            <point key="canvasLocation" x="5332" y="-122"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ycs-oZ-GcY">
@@ -305,7 +378,7 @@ El truco: Si prefieres hacer tortillas individuales puedes utilizar moldes de fl
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OEM-Lo-c1O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5383" y="121"/>
+            <point key="canvasLocation" x="6135" y="121"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="j44-JS-7nY">
@@ -328,18 +401,22 @@ El truco: Si prefieres hacer tortillas individuales puedes utilizar moldes de fl
     </scenes>
     <color key="tintColor" name="azul"/>
     <resources>
-        <image name="Imagen_1-removebg-preview" width="667" height="374"/>
-        <image name="Receta1" width="640" height="425"/>
+        <image name="Almuerzo" width="920" height="612"/>
+        <image name="Cena-1" width="920" height="608"/>
+        <image name="Desayuno-1" width="920" height="662"/>
+        <image name="Logo" width="667" height="374"/>
+        <image name="Merienda" width="920" height="612"/>
+        <image name="Opcion1" width="920" height="608"/>
+        <image name="Opcion2" width="920" height="612"/>
+        <image name="Opcion3" width="920" height="612"/>
+        <image name="comida" width="920" height="614"/>
         <image name="food" width="800" height="576"/>
         <image name="food2" width="800" height="1200"/>
-        <namedColor name="amarillo">
-            <color red="0.96078431372549022" green="0.9137254901960784" blue="0.81176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="Color">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="azul">
             <color red="0.57647058823529407" green="0.77647058823529413" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="new">
-            <color red="0.70588235294117652" green="0.89411764705882357" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="rosa">
             <color red="0.99599999189376831" green="0.87099999189376831" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -352,9 +429,6 @@ El truco: Si prefieres hacer tortillas individuales puedes utilizar moldes de fl
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

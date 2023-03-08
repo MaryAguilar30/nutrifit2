@@ -14,9 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet var Tips: UILabel!
+ 
+}
 
     
-    
-}
+
 
