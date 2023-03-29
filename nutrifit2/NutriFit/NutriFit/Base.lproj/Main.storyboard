@@ -31,22 +31,22 @@
                                                 <rect key="frame" x="26" y="157" width="179" height="257"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0sO-3s-096">
-                                                <rect key="frame" x="213" y="206" width="180" height="208"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0sO-3s-096">
+                                                <rect key="frame" x="213" y="206" width="180" height="173"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+                                                <string key="text">Incluye una variedad de alimentos: es importante incluir alimentos de todos los grupos alimentarios, como frutas,verduras, cereales integrales,proteìnas magras y grasas saludables 🥙</string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="desayuno" translatesAutoresizingMaskIntoConstraints="NO" id="vwG-GI-LeF">
-                                                <rect key="frame" x="241" y="478" width="124" height="195"/>
+                                                <rect key="frame" x="241" y="428" width="137" height="195"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g0J-7a-pbS">
                                                 <rect key="frame" x="8" y="466" width="197" height="193"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+                                                <string key="text">Limita los alimentos procesados: a menudo son altos en calorias grasas y azucares añadidos.Trata de limitar la cantidad de alimentos procesados que consumes y elige opciones màs saludabes como frutas y verduras frescas 🍲</string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -68,9 +68,9 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9F4-So-cYS">
-                                                <rect key="frame" x="182" y="716" width="194" height="129"/>
+                                                <rect key="frame" x="182" y="662" width="211" height="205"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+                                                <string key="text">Controla las prociones: controlar las porciones es importante para mantener un peso saludable.Trata de usar platos pequeños y presta atenciòn a las etiquetas de nutriciòn para asegurarte de que estàs comiendo porciones adecuadas 🥗</string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -111,7 +111,7 @@
             <objects>
                 <viewController title="Menu" id="avM-RR-2rS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NEb-1i-BXp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cre-NS-glN">
@@ -190,7 +190,7 @@
             <objects>
                 <viewController title="Opciones Desayuno" id="2L4-9I-XjA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v72-mW-bGH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recetas  de Desayuno" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ues-7Z-zgV">
@@ -253,11 +253,11 @@
             <objects>
                 <viewController title="Opcion 1 Desayuno" id="hjT-ql-vQZ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q0K-cb-mll">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9WF-nG-L9a">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZ7-6x-HBu">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
@@ -338,11 +338,11 @@ Paso 5. Añádelos a la sartén con los espárragos y, a fuego lento, remueve un
             <objects>
                 <viewController title="Opcion 2 Desayuno" id="CQ9-8w-180" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dxL-7j-9B1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tHc-P3-qjC">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mUl-Ck-tTC">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
@@ -431,11 +431,11 @@ Paso 4. Monta el postre alternando la fruta con la gelatina de menta y sírvelo 
             <objects>
                 <viewController title="Opcion 2  Desayuno" id="gbG-ZQ-kSk" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dO7-5v-TC5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ilp-bE-o4I">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vCk-tW-8tR">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
@@ -560,6 +560,9 @@ Paso 7. Terminar de decorar la tostada con la cebolla morada aliñada, las hueva
                                 <buttonConfiguration key="configuration" style="plain" title="Opcion 2" cornerStyle="capsule">
                                     <backgroundConfiguration key="background" image="merienda2"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="r2N-3p-pUc" kind="show" id="zAJ-n1-RWu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQN-90-bUO">
                                 <rect key="frame" x="79" y="601" width="256" height="97"/>
@@ -569,6 +572,9 @@ Paso 7. Terminar de decorar la tostada con la cebolla morada aliñada, las hueva
                                 <buttonConfiguration key="configuration" style="plain" title="Opcion 3" cornerStyle="capsule">
                                     <backgroundConfiguration key="background" image="merienda3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="zP9-hv-q7E" kind="show" id="p1g-GE-fKp"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recetas  de Media Mañana " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0H-xO-5zu">
                                 <rect key="frame" x="71" y="71" width="273" height="29"/>
@@ -633,7 +639,7 @@ Aceite de oliva, sal y pimienta</string>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="bwa-V2-vc2">
                                                 <rect key="frame" x="8" y="393" width="382" height="467"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">PREPARACIÓN
+                                                <string key="text">PREPARACIÓN
 
 Paso 1. Lavar y cortar el tomate en forma de dados. Reservar. 
 Paso 2. Pelar y picar la cebolleta. Trocear parte de una guindilla y cortar también en rodajas. 
@@ -641,7 +647,7 @@ Paso 3. Retirar el hueso del aguacate, extraer la pulpa y exprimir el zumo de un
 Paso 4. Pelar la cebolla morada y cortar en juliana. Aliñar la cebolla con aceite de oliva y sal, y reservar. 
 Paso 5. Tostar las rebanadas de pan en el horno. 
 Paso 6. Untar las tostadas con bastante guacamole, agregar las lonchas de salmón y espolvorear con pimienta. 
-Paso 7. Terminar de decorar la tostada con la cebolla morada aliñada, las huevas de salmón y un poco de aceite de oliva. </mutableString>
+Paso 7. Terminar de decorar la tostada con la cebolla morada aliñada, las huevas de salmón y un poco de aceite de oliva. </string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -679,18 +685,215 @@ Paso 7. Terminar de decorar la tostada con la cebolla morada aliñada, las hueva
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jlo-lJ-UCU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3511.594202898551" y="-691.07142857142856"/>
+            <point key="canvasLocation" x="3477" y="-727"/>
+        </scene>
+        <!--Opcion 2 Almuerzo-->
+        <scene sceneID="Ntc-ak-a64">
+            <objects>
+                <viewController title="Opcion 2 Almuerzo" id="r2N-3p-pUc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="75M-Uh-Nke">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAR-jv-GF6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2oy-EI-xaI">
+                                        <rect key="frame" x="0.0" y="0.0" width="406" height="1000"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="SALTEADO DE VERDURAS CON AVENA" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qwS-mX-C5i">
+                                                <rect key="frame" x="58" y="29" width="290" height="84"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" name="verde"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zO6-pp-uzi">
+                                                <rect key="frame" x="22" y="166" width="285" height="301"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">INGREDIENTES (4 personas)
+
+100 g de tirabeques
+150 g de judía verde fina
+150 g de guisantes baby con vaina
+1 manojo de cebolletas
+150 de avena en grano
+2 cucharadas de tamari
+aceite de oliva virgen extra
+sal
+Para la vinagreta: 
+
+30 g de tomates cereza secos
+50 g de anacardos
+100 ml de aceite de oliva
+virgen extra
+50 ml de vinagre de manzana
+una pizca de sal</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="opcion2almuerzo" translatesAutoresizingMaskIntoConstraints="NO" id="9uG-BS-0Dx">
+                                                <rect key="frame" x="250" y="252" width="141" height="170"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jNJ-6t-Z8Z">
+                                                <rect key="frame" x="15" y="511" width="376" height="617"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">PREPARACIÓN
+
+Paso 1. Para la vinagreta, poner en remojo los tomates secos al menos 4 horas antes. Luego, cuando ya haya pasado ese tiempo, escurre.
+Paso 2. Tostar ligeramente los anacardos en una sartén antiadherente. Agregar dos cucharadas de aceite, los tomates, vinagre, sal y remover unos minutos. Retirar y reservar. 
+Paso 3. Lavar la avena, cocinar en agua salada el tiempo que marque el fabricante. Escurrir y saltear en una sartén amplia engrasada previamente con aceite de oliva virgen extra. Al final, agregar el tamari, remover y retirar. 
+Paso 4. Lavar las hortalizas, pelar las cebolletas y cortar. Despuntar las judías. 
+Paso 5. Agregar todo a una sartén y sofreír un par de minutos a fuego medio. Agregar el resto de hortalizas. Cubrir medio dedo de agua y sazonar. 
+Paso 6. Cocinar a fuego medio durante un par de minutos hasta que se haya absorbido el agua. 
+Paso 7. Servir el salteado de hortalizas con la avena y aliñar con la vinagreta de tomates realizada al inicio. 
+ </mutableString>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="salmon"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="406" id="8VE-GQ-EOU"/>
+                                            <constraint firstAttribute="height" constant="1000" id="gBm-Xe-8UG"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="2oy-EI-xaI" firstAttribute="top" secondItem="bAR-jv-GF6" secondAttribute="top" id="KLr-v6-UDZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="2oy-EI-xaI" secondAttribute="trailing" id="ODE-Vw-e3e"/>
+                                    <constraint firstAttribute="bottom" secondItem="2oy-EI-xaI" secondAttribute="bottom" id="jPl-v3-V95"/>
+                                    <constraint firstItem="2oy-EI-xaI" firstAttribute="leading" secondItem="bAR-jv-GF6" secondAttribute="leading" id="ldr-Uy-DCi"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hyJ-4e-0Dl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bAR-jv-GF6" firstAttribute="top" secondItem="75M-Uh-Nke" secondAttribute="top" id="IBR-wN-M8Z"/>
+                            <constraint firstItem="bAR-jv-GF6" firstAttribute="leading" secondItem="hyJ-4e-0Dl" secondAttribute="leading" id="IOv-H7-e1d"/>
+                            <constraint firstItem="bAR-jv-GF6" firstAttribute="trailing" secondItem="hyJ-4e-0Dl" secondAttribute="trailing" id="XI0-u7-SII"/>
+                            <constraint firstItem="bAR-jv-GF6" firstAttribute="bottom" secondItem="hyJ-4e-0Dl" secondAttribute="bottom" id="xwP-Lc-RvC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mQr-hM-ryh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X5Y-hP-h56" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4181" y="-716"/>
+        </scene>
+        <!--Opcion3Almuerzo-->
+        <scene sceneID="h1Y-Ib-J9w">
+            <objects>
+                <viewController title="Opcion3Almuerzo" id="zP9-hv-q7E" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jdk-62-xxO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H7z-4o-vCV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zEv-fx-nPX">
+                                        <rect key="frame" x="0.0" y="0.0" width="436" height="1000"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NmX-cY-A2u">
+                                                <rect key="frame" x="29" y="175" width="205" height="275"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">INGREDIENTES (para 4 personas)
+
+4 huevos
+1 manojo de espárragos verdes
+150 g de judías verdes
+2-3 zanahorias
+1 pimiento rojo
+2-3 ramitas de perejil
+Aceite de oliva, sal y pimienta</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="VERDURAS AL HORNO CON HUEVO POCHÉ" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pSQ-q6-yf1">
+                                                <rect key="frame" x="40" y="38" width="290" height="84"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" name="verde"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="zRR-7j-hvn">
+                                                <rect key="frame" x="13" y="434" width="345" height="618"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">PREPARACIÓN
+
+Paso 1. Limpiar y cortar todas las verduras. Limpiar los espárragos y cortar el pie leñoso. Lavar y despuntar las judías. Pelar las zanahorias y cortar en tiras. Retirar el pedúnculo y las semillas y filamentos del pimiento y cortar también en tiras muy finas. 
+Paso 2. Añadir todas las verduras cortadas en la bandeja del horno. Salpimentar y rociar con un chorrito de aceite de oliva. 
+Paso 3. Asar en el horno, con el modo grill, durante unos 10-12 minutos hasta que se doren. 
+Paso 4.  Cubrir con un cuadrado (15x15 cm) de film transparente un cuenco pequeño y cascar 1 huevo en el interior. Cerrar bien, y enrollar las puntas con la ayuda de una goma. Cocer, una vez que el agua esté hirviendo, durante unos 4 minutos. Repetir lo mismo con el resto de huevos. 
+Paso 5. Hervir las hojas de perejil en un poco de agua, previamente llevada a ebullición, durante unos segundos. Escurrir de nuevo y triturar con un poco de aceite. 
+Paso 6. Repartir las verduras asadas en los platos y colocar el huevo pochado en el centro. Añadir sal y pimienta. Incorporar el aceite de perejil y servir. </mutableString>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="opcion3almuerzo" translatesAutoresizingMaskIntoConstraints="NO" id="rUG-8C-KQN">
+                                                <rect key="frame" x="222" y="213" width="157" height="192"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mr9-ZQ-mEM">
+                                                <rect key="frame" x="114" y="909" width="142" height="49"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Menù" cornerStyle="capsule">
+                                                    <backgroundConfiguration key="background"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="l5J-Zm-UQw" kind="show" id="YO6-rk-t4y"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" name="salmon"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="ACp-nb-sbn"/>
+                                            <constraint firstAttribute="width" constant="436" id="iKF-Ev-ZSS"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="zEv-fx-nPX" secondAttribute="trailing" id="UST-Sd-A5Q"/>
+                                    <constraint firstItem="zEv-fx-nPX" firstAttribute="top" secondItem="H7z-4o-vCV" secondAttribute="top" id="cAV-eG-NXD"/>
+                                    <constraint firstItem="zEv-fx-nPX" firstAttribute="leading" secondItem="H7z-4o-vCV" secondAttribute="leading" id="tub-At-Acr"/>
+                                    <constraint firstAttribute="bottom" secondItem="zEv-fx-nPX" secondAttribute="bottom" id="yNZ-OT-suv"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bRv-5T-Czy"/>
+                        <color key="backgroundColor" name="salmon"/>
+                        <constraints>
+                            <constraint firstItem="H7z-4o-vCV" firstAttribute="bottom" secondItem="bRv-5T-Czy" secondAttribute="bottom" id="7Wi-jD-IZ3"/>
+                            <constraint firstItem="H7z-4o-vCV" firstAttribute="leading" secondItem="bRv-5T-Czy" secondAttribute="leading" id="DsW-el-dZY"/>
+                            <constraint firstItem="H7z-4o-vCV" firstAttribute="trailing" secondItem="bRv-5T-Czy" secondAttribute="trailing" id="Om3-Io-iSg"/>
+                            <constraint firstItem="H7z-4o-vCV" firstAttribute="top" secondItem="Jdk-62-xxO" secondAttribute="top" id="WeS-4k-qay"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dDS-6X-xfI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ulH-wt-GdK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4943.4782608695659" y="-691.07142857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="p7c-yR-Qb5">
             <objects>
                 <viewController id="MTs-y5-ulC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Xd-aX-Sa0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="cTQ-Fs-qdg">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <viewLayoutGuide key="safeArea" id="qpY-gy-VqN"/>
                                 <color key="backgroundColor" name="rosa"/>
@@ -710,11 +913,11 @@ Paso 7. Terminar de decorar la tostada con la cebolla morada aliñada, las hueva
             <objects>
                 <viewController id="88h-5p-yvi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="akb-gb-uVY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="col-ce-49E">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xeD-jT-Sa2">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
@@ -751,13 +954,13 @@ sal y aceite de oliva virgen extra
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5bT-Pq-B6f">
                                                 <rect key="frame" x="8" y="406" width="406" height="446"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">PREPARACIÓN
+                                                <string key="text">PREPARACIÓN
 
 Paso 1. Hervir el arroz basmati durante unos 25 minutos, y una vez cocinado, colar y pasar por abundante agua fría, escurrir y reservar. 
 Paso 2. Cortar el puerro en finas tiras, los pimientos y la zanahoria en cubos, y saltear todo durante unos minutos con abundante aceite de oliva virgen extra y sal.
 Paso 3. Añadir la Heura y los guisantes, un poco de curry y pimienta.
 Paso 4. Una vez dorada la Heura, añadir el arroz bien escurrido y saltear un par de minutos con los vegetales; lo ideal sería utilizar un wok, pero una buena sartén antiadherente ancha también nos puede servir.
-Paso 5. Con el fuego ya apagado, dar un golpe de salsa de soja y remover bien. A continuación servir con un poco de cebollino o cebolleta picada bien fina por encima.</mutableString>
+Paso 5. Con el fuego ya apagado, dar un golpe de salsa de soja y remover bien. A continuación servir con un poco de cebollino o cebolleta picada bien fina por encima.</string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -802,7 +1005,7 @@ Paso 5. Con el fuego ya apagado, dar un golpe de salsa de soja y remover bien. A
             <objects>
                 <viewController id="wk5-10-kjG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cMX-AL-BDa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Ydu-Y1-7Px"/>
                         <color key="backgroundColor" name="rosa"/>
@@ -833,7 +1036,8 @@ Paso 5. Con el fuego ya apagado, dar un golpe de salsa de soja y remover bien. A
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tLx-39-eCd"/>
+        <segue reference="YO6-rk-t4y"/>
+        <segue reference="qfG-j7-ImB"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" name="azul"/>
     <resources>
@@ -852,6 +1056,8 @@ Paso 5. Con el fuego ya apagado, dar un golpe de salsa de soja y remover bien. A
         <image name="merienda-1" width="920" height="608"/>
         <image name="merienda2" width="920" height="612"/>
         <image name="merienda3" width="920" height="687"/>
+        <image name="opcion2almuerzo" width="900" height="1287"/>
+        <image name="opcion3almuerzo" width="900" height="1195"/>
         <image name="receta1-1" width="1501" height="2000"/>
         <image name="receta1Al" width="900" height="1181"/>
         <image name="receta2" width="1333" height="2000"/>
