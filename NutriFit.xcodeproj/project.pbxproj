@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBBD1CC129A591060059AB04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD1CC029A591060059AB04 /* AppDelegate.swift */; };
+		FBBD1CC329A591060059AB04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD1CC229A591060059AB04 /* SceneDelegate.swift */; };
+		FBBD1CC529A591060059AB04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD1CC429A591060059AB04 /* ViewController.swift */; };
+		FBBD1CC829A591060059AB04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBD1CC629A591060059AB04 /* Main.storyboard */; };
+		FBBD1CCA29A591070059AB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBD1CC929A591070059AB04 /* Assets.xcassets */; };
+		FBBD1CCD29A591070059AB04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBD1CCB29A591070059AB04 /* LaunchScreen.storyboard */; };
+		FBBD1CD829A591070059AB04 /* NutriFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD1CD729A591070059AB04 /* NutriFitTests.swift */; };
+		FBBD1CE229A591070059AB04 /* NutriFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD1CE129A591070059AB04 /* NutriFitUITests.swift */; };
+		FBBD1CE429A591070059AB04 /* NutriFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD1CE329A591070059AB04 /* NutriFitUITestsLaunchTests.swift */; };
+		FBBD1CF129A59B800059AB04 /* MisColores.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBD1CF029A59B800059AB04 /* MisColores.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBBD1CD429A591070059AB04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBBD1CB529A591060059AB04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBBD1CBC29A591060059AB04;
+			remoteInfo = NutriFit;
+		};
+		FBBD1CDE29A591070059AB04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBBD1CB529A591060059AB04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBBD1CBC29A591060059AB04;
+			remoteInfo = NutriFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBBD1CBD29A591060059AB04 /* NutriFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBD1CC029A591060059AB04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBBD1CC229A591060059AB04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBBD1CC429A591060059AB04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBBD1CC729A591060059AB04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBBD1CC929A591070059AB04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBBD1CCC29A591070059AB04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBBD1CCE29A591070059AB04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBD1CD329A591070059AB04 /* NutriFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBD1CD729A591070059AB04 /* NutriFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriFitTests.swift; sourceTree = "<group>"; };
+		FBBD1CDD29A591070059AB04 /* NutriFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBD1CE129A591070059AB04 /* NutriFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriFitUITests.swift; sourceTree = "<group>"; };
+		FBBD1CE329A591070059AB04 /* NutriFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBBD1CF029A59B800059AB04 /* MisColores.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MisColores.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBBD1CBA29A591060059AB04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBD1CD029A591070059AB04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBD1CDA29A591070059AB04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBBD1CB429A591060059AB04 = {
+			isa = PBXGroup;
+			children = (
+				FBBD1CBF29A591060059AB04 /* NutriFit */,
+				FBBD1CD629A591070059AB04 /* NutriFitTests */,
+				FBBD1CE029A591070059AB04 /* NutriFitUITests */,
+				FBBD1CBE29A591060059AB04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBBD1CBE29A591060059AB04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD1CBD29A591060059AB04 /* NutriFit.app */,
+				FBBD1CD329A591070059AB04 /* NutriFitTests.xctest */,
+				FBBD1CDD29A591070059AB04 /* NutriFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBBD1CBF29A591060059AB04 /* NutriFit */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD1CC029A591060059AB04 /* AppDelegate.swift */,
+				FBBD1CC229A591060059AB04 /* SceneDelegate.swift */,
+				FBBD1CC429A591060059AB04 /* ViewController.swift */,
+				FBBD1CC629A591060059AB04 /* Main.storyboard */,
+				FBBD1CF029A59B800059AB04 /* MisColores.xcassets */,
+				FBBD1CC929A591070059AB04 /* Assets.xcassets */,
+				FBBD1CCB29A591070059AB04 /* LaunchScreen.storyboard */,
+				FBBD1CCE29A591070059AB04 /* Info.plist */,
+			);
+			path = NutriFit;
+			sourceTree = "<group>";
+		};
+		FBBD1CD629A591070059AB04 /* NutriFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD1CD729A591070059AB04 /* NutriFitTests.swift */,
+			);
+			path = NutriFitTests;
+			sourceTree = "<group>";
+		};
+		FBBD1CE029A591070059AB04 /* NutriFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD1CE129A591070059AB04 /* NutriFitUITests.swift */,
+				FBBD1CE329A591070059AB04 /* NutriFitUITestsLaunchTests.swift */,
+			);
+			path = NutriFitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBBD1CBC29A591060059AB04 /* NutriFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBD1CE729A591070059AB04 /* Build configuration list for PBXNativeTarget "NutriFit" */;
+			buildPhases = (
+				FBBD1CB929A591060059AB04 /* Sources */,
+				FBBD1CBA29A591060059AB04 /* Frameworks */,
+				FBBD1CBB29A591060059AB04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutriFit;
+			productName = NutriFit;
+			productReference = FBBD1CBD29A591060059AB04 /* NutriFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBBD1CD229A591070059AB04 /* NutriFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBD1CEA29A591070059AB04 /* Build configuration list for PBXNativeTarget "NutriFitTests" */;
+			buildPhases = (
+				FBBD1CCF29A591070059AB04 /* Sources */,
+				FBBD1CD029A591070059AB04 /* Frameworks */,
+				FBBD1CD129A591070059AB04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBBD1CD529A591070059AB04 /* PBXTargetDependency */,
+			);
+			name = NutriFitTests;
+			productName = NutriFitTests;
+			productReference = FBBD1CD329A591070059AB04 /* NutriFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBBD1CDC29A591070059AB04 /* NutriFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBD1CED29A591070059AB04 /* Build configuration list for PBXNativeTarget "NutriFitUITests" */;
+			buildPhases = (
+				FBBD1CD929A591070059AB04 /* Sources */,
+				FBBD1CDA29A591070059AB04 /* Frameworks */,
+				FBBD1CDB29A591070059AB04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBBD1CDF29A591070059AB04 /* PBXTargetDependency */,
+			);
+			name = NutriFitUITests;
+			productName = NutriFitUITests;
+			productReference = FBBD1CDD29A591070059AB04 /* NutriFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBBD1CB529A591060059AB04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FBBD1CBC29A591060059AB04 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FBBD1CD229A591070059AB04 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FBBD1CBC29A591060059AB04;
+					};
+					FBBD1CDC29A591070059AB04 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FBBD1CBC29A591060059AB04;
+					};
+				};
+			};
+			buildConfigurationList = FBBD1CB829A591060059AB04 /* Build configuration list for PBXProject "NutriFit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBBD1CB429A591060059AB04;
+			productRefGroup = FBBD1CBE29A591060059AB04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBBD1CBC29A591060059AB04 /* NutriFit */,
+				FBBD1CD229A591070059AB04 /* NutriFitTests */,
+				FBBD1CDC29A591070059AB04 /* NutriFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBBD1CBB29A591060059AB04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBD1CCD29A591070059AB04 /* LaunchScreen.storyboard in Resources */,
+				FBBD1CCA29A591070059AB04 /* Assets.xcassets in Resources */,
+				FBBD1CC829A591060059AB04 /* Main.storyboard in Resources */,
+				FBBD1CF129A59B800059AB04 /* MisColores.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBD1CD129A591070059AB04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBD1CDB29A591070059AB04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBBD1CB929A591060059AB04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBD1CC529A591060059AB04 /* ViewController.swift in Sources */,
+				FBBD1CC129A591060059AB04 /* AppDelegate.swift in Sources */,
+				FBBD1CC329A591060059AB04 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBD1CCF29A591070059AB04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBD1CD829A591070059AB04 /* NutriFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBD1CD929A591070059AB04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBD1CE429A591070059AB04 /* NutriFitUITestsLaunchTests.swift in Sources */,
+				FBBD1CE229A591070059AB04 /* NutriFitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBBD1CD529A591070059AB04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBBD1CBC29A591060059AB04 /* NutriFit */;
+			targetProxy = FBBD1CD429A591070059AB04 /* PBXContainerItemProxy */;
+		};
+		FBBD1CDF29A591070059AB04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBBD1CBC29A591060059AB04 /* NutriFit */;
+			targetProxy = FBBD1CDE29A591070059AB04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBBD1CC629A591060059AB04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBBD1CC729A591060059AB04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBBD1CCB29A591070059AB04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBBD1CCC29A591070059AB04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBBD1CE529A591070059AB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBBD1CE629A591070059AB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBBD1CE829A591070059AB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NutriFit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tecmilenio.NutriFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBBD1CE929A591070059AB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NutriFit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tecmilenio.NutriFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBBD1CEB29A591070059AB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tecmilenio.NutriFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriFit.app/NutriFit";
+			};
+			name = Debug;
+		};
+		FBBD1CEC29A591070059AB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tecmilenio.NutriFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriFit.app/NutriFit";
+			};
+			name = Release;
+		};
+		FBBD1CEE29A591070059AB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tecmilenio.NutriFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutriFit;
+			};
+			name = Debug;
+		};
+		FBBD1CEF29A591070059AB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tecmilenio.NutriFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutriFit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBBD1CB829A591060059AB04 /* Build configuration list for PBXProject "NutriFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBD1CE529A591070059AB04 /* Debug */,
+				FBBD1CE629A591070059AB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBD1CE729A591070059AB04 /* Build configuration list for PBXNativeTarget "NutriFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBD1CE829A591070059AB04 /* Debug */,
+				FBBD1CE929A591070059AB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBD1CEA29A591070059AB04 /* Build configuration list for PBXNativeTarget "NutriFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBD1CEB29A591070059AB04 /* Debug */,
+				FBBD1CEC29A591070059AB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBD1CED29A591070059AB04 /* Build configuration list for PBXNativeTarget "NutriFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBD1CEE29A591070059AB04 /* Debug */,
+				FBBD1CEF29A591070059AB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBBD1CB529A591060059AB04 /* Project object */;
+}
